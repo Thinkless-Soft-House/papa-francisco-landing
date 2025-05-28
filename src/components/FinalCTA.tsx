@@ -65,6 +65,12 @@ const FinalCTA = () => {
 
                 {/* Botão principal */}
                 <div className="flex justify-center lg:justify-start">
+                    <a 
+                      href="https://pay.kirvano.com/b1a0fead-31f0-4084-a381-f967b163f829" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto max-w-full"
+                    ></a>
                   <Button 
                     size="lg" 
                     className="w-full sm:w-auto bg-spiritual-gold hover:bg-spiritual-gold/90 text-white px-6 sm:px-10 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 max-w-full"
