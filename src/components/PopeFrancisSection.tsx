@@ -1,4 +1,3 @@
-
 import { Crown, Heart, Globe } from "lucide-react";
 
 const PopeFrancisSection = () => {
@@ -15,6 +14,7 @@ const PopeFrancisSection = () => {
                 src="/lovable-uploads/a378db39-20d7-4c08-b54b-4fdee7ac3fda.png" 
                 alt="Papa Francisco"
                 className="relative w-full max-w-md mx-auto rounded-2xl shadow-2xl"
+                loading="lazy"
               />
             </div>
           </div>

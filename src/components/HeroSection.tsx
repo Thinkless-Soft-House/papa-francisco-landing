@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Heart } from "lucide-react";
 
@@ -67,6 +66,7 @@ const HeroSection = () => {
                 src="/lovable-uploads/9adbb17e-4cbc-4d74-9bca-4581243f0bdb.png" 
                 alt="30 Orações Mais Poderosas do Papa Francisco - eBook"
                 className="relative w-full h-auto drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
+                loading="lazy"
               />
             </div>
           </div>

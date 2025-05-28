@@ -1,4 +1,3 @@
-
 const EmotionalSection = () => {
   return (
     <section className="py-20 bg-gradient-to-r from-spiritual-warm to-spiritual-cream">
@@ -13,6 +12,7 @@ const EmotionalSection = () => {
                 src="/lovable-uploads/cb0d11f6-5a2d-4816-8710-047a8cfd56f0.png" 
                 alt="Papa Francisco abraçando uma pessoa"
                 className="relative w-full rounded-2xl shadow-2xl"
+                loading="lazy"
               />
             </div>
           </div>

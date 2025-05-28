@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Shield, ArrowRight } from "lucide-react";
 
@@ -22,6 +21,7 @@ const GuaranteeSection = () => {
                 src="/lovable-uploads/7aeeb62f-f96c-425c-a7e1-a8dab366d3d1.png" 
                 alt="Garantia de 7 dias"
                 className="w-48 h-48 md:w-64 md:h-64 drop-shadow-xl"
+                loading="lazy"
               />
             </div>
 

@@ -83,6 +83,7 @@ const Testimonials = () => {
               src="/lovable-uploads/a378db39-20d7-4c08-b54b-4fdee7ac3fda.png" 
               alt="Papa Francisco"
               className="w-32 h-auto"
+              loading="lazy"
             />
           </div>
           <div className="relative z-10 bg-white/80 backdrop-blur-sm inline-block px-8 py-4 rounded-full">
