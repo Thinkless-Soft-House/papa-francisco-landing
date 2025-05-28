@@ -1,13 +1,13 @@
-import HeroSection from "@/components/HeroSection";
-import EmotionalSection from "@/components/EmotionalSection";
-import ProductPresentation from "@/components/ProductPresentation";
-import PrayerExcerpts from "@/components/PrayerExcerpts";
-import Testimonials from "@/components/Testimonials";
-import PopeFrancisSection from "@/components/PopeFrancisSection";
-import GuaranteeSection from "@/components/GuaranteeSection";
-import FAQ from "@/components/FAQ";
-import FinalCTA from "@/components/FinalCTA";
-import MobileFixedCTA from "@/components/MobileFixedCTA";
+import HeroSection from "@/components/HeroSectionFr";
+import EmotionalSection from "@/components/EmotionalSectionFr";
+import ProductPresentation from "@/components/ProductPresentationFr";
+import PrayerExcerpts from "@/components/PrayerExcerptsFr";
+import Testimonials from "@/components/TestimonialsFr";
+import PopeFrancisSection from "@/components/PopeFrancisSectionFr";
+import GuaranteeSection from "@/components/GuaranteeSectionFr";
+import FAQ from "@/components/FAQFr";
+import FinalCTA from "@/components/FinalCTAFr";
+import MobileFixedCTA from "@/components/MobileFixedCTAFr";
 
 const Fr = () => {
   return (
