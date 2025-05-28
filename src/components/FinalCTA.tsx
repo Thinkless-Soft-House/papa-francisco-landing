@@ -76,7 +76,7 @@ const FinalCTA = () => {
                 </div>
 
                 {/* Confiança */}
-                <div className="flex items-center justify-center lg:justify-start gap-2 text-spiritual-gold flex-wrap">
+                <div className="flex items-center justify-center lg:justify-start gap-2 text-spiritual-gold flex-wrap pb-[30px]">
                   <div className="flex">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-current" />
