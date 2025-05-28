@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 
@@ -8,19 +7,22 @@ const Testimonials = () => {
       name: "Maria Silva",
       city: "São Paulo, SP",
       text: "Essas orações transformaram minha rotina de fé. Sinto uma paz que há muito tempo não experimentava. O Papa Francisco tem um dom especial para tocar nossa alma.",
-      rating: 5
+      rating: 5,
+      image: "/lovable-uploads/maria.webp"
     },
     {
       name: "João Santos",
       city: "Rio de Janeiro, RJ", 
       text: "Como pai de família, encontrei nessas palavras a força que precisava. Agora leio uma oração todos os dias com minha esposa e filhos. Recomendo de coração!",
-      rating: 5
+      rating: 5,
+      image: "/lovable-uploads/joao-santos.webp"
     },
     {
       name: "Ana Oliveira",
       city: "Belo Horizonte, MG",
       text: "Estava passando por um momento difícil e essas orações me deram esperança. As palavras do Papa Francisco são um bálsamo para a alma. Gratidão imensa!",
-      rating: 5
+      rating: 5,
+      image: "/lovable-uploads/ana-carolina.webp"
     }
   ];
 
@@ -58,7 +60,13 @@ const Testimonials = () => {
                   </p>
 
                   {/* Autor */}
-                  <div className="border-t border-spiritual-gold/20 pt-6">
+                  <div className="border-t border-spiritual-gold/20 pt-6 text-center">
+                    <img
+                      src={testimonial.image}
+                      alt={`Foto de ${testimonial.name}`}
+                      className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-spiritual-gold mx-auto mb-4"
+                      loading="lazy"
+                    />
                     <p className="font-semibold text-gray-800">{testimonial.name}</p>
                     <p className="text-sm text-gray-600">{testimonial.city}</p>
                   </div>
