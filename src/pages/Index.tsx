@@ -1,12 +1,28 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import HeroSection from "@/components/HeroSection";
+import EmotionalSection from "@/components/EmotionalSection";
+import ProductPresentation from "@/components/ProductPresentation";
+import PrayerExcerpts from "@/components/PrayerExcerpts";
+import Testimonials from "@/components/Testimonials";
+import PopeFrancisSection from "@/components/PopeFrancisSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import MobileFixedCTA from "@/components/MobileFixedCTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white">
+      <HeroSection />
+      <EmotionalSection />
+      <ProductPresentation />
+      <PrayerExcerpts />
+      <Testimonials />
+      <PopeFrancisSection />
+      <GuaranteeSection />
+      <FAQ />
+      <FinalCTA />
+      <MobileFixedCTA />
     </div>
   );
 };
