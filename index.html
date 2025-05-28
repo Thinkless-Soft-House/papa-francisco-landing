@@ -27,5 +27,25 @@
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+      (function () {
+        const redirectURL = "/downsell"; // Redireciona para a página de downsell
+
+        // Insere um novo estado no histórico
+        history.pushState(null, null, location.href);
+
+        // Gatilho para botão "voltar"
+        window.addEventListener("popstate", function () {
+          location.replace(redirectURL);
+        });
+
+        // Alternativa extra para navegadores que não disparam corretamente o popstate
+        window.onload = function () {
+          setTimeout(function () {
+            history.pushState(null, null, location.href);
+          }, 100); // empurra de novo após carregamento, útil em alguns casos mobile
+        };
+      })();
+    </script>
   </body>
 </html>
