@@ -58,14 +58,15 @@ const GuaranteeSection = () => {
                   </div>
                 </div>
 
-                <Button 
-                  onClick={scrollToOffer}
-                  size="lg" 
-                  className="w-full sm:w-auto bg-spiritual-gold hover:bg-spiritual-gold/90 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  QUERO COMEÇAR MINHA JORNADA AGORA
-                  <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
-                </Button>
+                  <Button 
+                    onClick={scrollToOffer}
+                    size="lg"
+                    className="w-full sm:w-auto bg-spiritual-gold hover:bg-spiritual-gold/90 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 whitespace-normal break-words text-center"
+                  >
+                    QUERO COMEÇAR MINHA JORNADA AGORA
+                    <ArrowRight className="ml-2 w-4 h-4 sm:w-5 sm:h-5" />
+                  </Button>
+
               </div>
             </div>
           </div>
