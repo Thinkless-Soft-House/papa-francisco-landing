@@ -8,6 +8,7 @@ import Downsell from "./pages/Downsell";
 import NotFound from "./pages/NotFound";
 import GerIndex from "./pages/GerIndex";
 import Fr from "./pages/Fr";
+import Uk from "./pages/Uk";
 
 const queryClient = new QueryClient();
 
@@ -17,11 +18,12 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
+        <Routes>          <Route path="/" element={<Index />} />
           <Route path="/downsell" element={<Downsell />} />
           <Route path="/ger" element={<GerIndex />} />
           <Route path="/fr" element={<Fr />} />
+          <Route path="/uk" element={<Uk />} />
+
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
