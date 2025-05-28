@@ -4,7 +4,7 @@ import { Download, Clock, Star } from "lucide-react";
 
 const FinalCTA = () => {
   return (
-    <section className="py-16 sm:py-20 bg-gradient-to-br from-spiritual-gold/10 via-spiritual-warm to-spiritual-cream overflow-x-hidden">
+    <section id="oferta" className="py-16 sm:py-20 bg-gradient-to-br from-spiritual-gold/10 via-spiritual-warm to-spiritual-cream overflow-x-hidden">
       <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
         <div className="max-w-6xl mx-auto">
           
@@ -59,7 +59,7 @@ const FinalCTA = () => {
                   </div>
                   <p className="text-sm sm:text-base text-gray-700 text-center lg:text-left">
                     Por tempo limitado, você pode começar sua jornada espiritual por apenas 
-                    <span className="font-bold text-spiritual-gold"> R$ 19,90</span>
+                    <span className="font-bold text-spiritual-gold"> R$ 29,90</span>
                   </p>
                 </div>
 

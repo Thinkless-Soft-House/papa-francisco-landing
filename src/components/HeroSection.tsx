@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import { ArrowDown, Heart } from "lucide-react";
 
 const HeroSection = () => {
+  const scrollToOffer = () => {
+    const offerSection = document.getElementById('oferta');
+    if (offerSection) {
+      offerSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background com gradiente suave */}
@@ -37,6 +44,7 @@ const HeroSection = () => {
 
             <div className="space-y-4 lg:space-y-6">
               <Button 
+                onClick={scrollToOffer}
                 size="lg" 
                 className="w-full sm:w-auto bg-spiritual-gold hover:bg-spiritual-gold/90 text-white px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 whitespace-nowrap"
               >

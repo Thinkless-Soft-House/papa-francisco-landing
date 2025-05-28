@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import { Check, Download, Heart, BookOpen } from "lucide-react";
 
 const ProductPresentation = () => {
+  const scrollToOffer = () => {
+    const offerSection = document.getElementById('oferta');
+    if (offerSection) {
+      offerSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const benefits = [
     "30 orações cuidadosamente selecionadas",
     "Palavras autênticas do Papa Francisco",
@@ -74,6 +81,7 @@ const ProductPresentation = () => {
               </div>
 
               <Button 
+                onClick={scrollToOffer}
                 size="lg" 
                 className="w-full bg-spiritual-gold hover:bg-spiritual-gold/90 text-white py-3 sm:py-4 text-base sm:text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
               >
