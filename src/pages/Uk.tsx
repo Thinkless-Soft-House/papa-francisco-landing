@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import HeroSectionUk from "@/components/HeroSectionUk";
 import EmotionalSectionUk from "@/components/EmotionalSectionUk";
 import ProductPresentationUk from "@/components/ProductPresentationUk";
@@ -9,7 +10,12 @@ import FAQUk from "@/components/FAQUk";
 import FinalCTAUk from "@/components/FinalCTAUk";
 import MobileFixedCTAUk from "@/components/MobileFixedCTAUk";
 
-const Uk = () => {  return (    <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white overflow-x-hidden">
+const Uk = () => {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white overflow-x-hidden">
+      <Helmet>
+        <script type="text/javascript" src="https://assets.mycartpanda.com/cartx-ecomm-ui-assets/js/cpsales.js"></script>
+      </Helmet>
       <HeroSectionUk />
       <EmotionalSectionUk />
       <ProductPresentationUk />

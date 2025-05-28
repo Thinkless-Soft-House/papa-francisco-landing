@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import HeroSectionGer from "@/components/HeroSectionGer";
 import EmotionalSectionGer from "@/components/EmotionalSectionGer";
 import ProductPresentationGer from "@/components/ProductPresentationGer";
@@ -12,6 +13,9 @@ import MobileFixedCTAGer from "@/components/MobileFixedCTAGer";
 const GerIndex = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white overflow-x-hidden">
+      <Helmet>
+        <script type="text/javascript" src="https://assets.mycartpanda.com/cartx-ecomm-ui-assets/js/cpsales.js"></script>
+      </Helmet>
       <HeroSectionGer />
       <EmotionalSectionGer />
       <ProductPresentationGer />
