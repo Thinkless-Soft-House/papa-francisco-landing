@@ -12,7 +12,7 @@ import MobileFixedCTA from "@/components/MobileFixedCTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white">
+    <div className="min-h-screen bg-gradient-to-b from-spiritual-peace to-white overflow-x-hidden">
       <HeroSection />
       <EmotionalSection />
       <ProductPresentation />
