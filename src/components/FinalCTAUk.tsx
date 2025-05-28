@@ -65,7 +65,7 @@ const FinalCTAUk = () => {
                 {/* Botão principal */}
                 <div className="flex justify-center lg:justify-start">
                   <a 
-                      href="https://pay.kirvano.com/b1a0fead-31f0-4084-a381-f967b163f829" 
+                      href="https://veagle-llc.mycartpanda.com/checkout/185553907:1" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-full sm:w-auto max-w-full"

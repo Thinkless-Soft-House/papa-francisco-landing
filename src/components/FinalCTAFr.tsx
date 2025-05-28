@@ -49,6 +49,12 @@ const FinalCTA = () => {
                     Pour une durée limitée, commencez votre chemin spirituel pour seulement <span className="font-bold text-spiritual-gold">9,90 €</span> !
                   </p>
                 </div>
+                <a 
+                      href="https://veagle-llc.mycartpanda.com/checkout/185554350:1" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto max-w-full"
+                    >
                 <Button
                   size="lg"
                   className="w-full sm:w-auto bg-spiritual-gold hover:bg-spiritual-gold/90 text-white px-8 py-4 text-lg font-bold rounded-full shadow-lg transition-all duration-300 mt-4"
@@ -56,6 +62,7 @@ const FinalCTA = () => {
                   <Download className="mr-2 w-5 h-5 flex-shrink-0" />
                   JE VEUX LE EBOOK MAINTENANT - 9,90 €
                 </Button>
+                </a>
               </div>
             </div>
           </div>
