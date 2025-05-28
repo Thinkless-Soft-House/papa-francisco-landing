@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Check, Download, Heart, BookOpen } from "lucide-react";
 
@@ -42,6 +41,7 @@ const ProductPresentation = () => {
                 src="/lovable-uploads/9adbb17e-4cbc-4d74-9bca-4581243f0bdb.png" 
                 alt="eBook 30 Orações do Papa Francisco"
                 className="relative w-full h-auto drop-shadow-2xl"
+                loading="lazy"
               />
             </div>
           </div>
