@@ -18,7 +18,7 @@ const MobileFixedCTAUk = () => {
           className="w-full bg-spiritual-gold hover:bg-spiritual-gold/90 text-white py-3 sm:py-4 text-sm sm:text-lg font-bold rounded-full shadow-lg max-w-full overflow-hidden"
         >
           <Download className="mr-2 w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-          <span className="truncate">GET THE EBOOK NOW - £7.90</span>
+          <span className="truncate">GET THE EBOOK NOW - £8.90</span>
         </Button>
       </div>
     </div>

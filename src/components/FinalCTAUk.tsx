@@ -58,7 +58,7 @@ const FinalCTAUk = () => {
                   </div>
                   <p className="text-sm sm:text-base text-gray-700 text-center lg:text-left">
                     For a limited time, you can start your spiritual journey for just 
-                    <span className="font-bold text-spiritual-gold"> £7.90</span>
+                    <span className="font-bold text-spiritual-gold"> £8.90</span>
                   </p>
                 </div>
 
