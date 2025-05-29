@@ -58,7 +58,6 @@ const FinalCTAGer = () => {
                 <div className="flex justify-center lg:justify-start">
                   <a 
                       href="https://veagle-llc.mycartpanda.com/checkout/185517045:1" 
-                      target="_blank" 
                       rel="noopener noreferrer"
                       className="w-full sm:w-auto max-w-full"
                     >

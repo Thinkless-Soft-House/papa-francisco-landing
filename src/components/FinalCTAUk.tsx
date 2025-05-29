@@ -66,7 +66,6 @@ const FinalCTAUk = () => {
                 <div className="flex justify-center lg:justify-start">
                   <a 
                       href="https://veagle-llc.mycartpanda.com/checkout/185553907:1" 
-                      target="_blank" 
                       rel="noopener noreferrer"
                       className="w-full sm:w-auto max-w-full"
                     >

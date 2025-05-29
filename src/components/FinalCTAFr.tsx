@@ -51,7 +51,6 @@ const FinalCTA = () => {
                 </div>
                 <a 
                       href="https://veagle-llc.mycartpanda.com/checkout/185554350:1" 
-                      target="_blank" 
                       rel="noopener noreferrer"
                       className="w-full sm:w-auto max-w-full"
                     >
